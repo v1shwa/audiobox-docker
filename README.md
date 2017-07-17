@@ -1,4 +1,4 @@
-Audiobox
+Audiobox - Docker
 ---
 
 A jupyter notebook based Docker image for speech/audio synthesis with all essential tools included.
