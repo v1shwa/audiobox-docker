@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+language: python
+python:
+  - "3.6"
+install:
+  - docker build -t audiobox .
+  - docker run -d -p 8888:8888 --name audio audiobox
+script:
+  - docker ps | grep -q audio
