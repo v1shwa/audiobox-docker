@@ -1,4 +1,4 @@
-Audiobox - Docker
+Audiobox - Docker   [![Build Status](https://travis-ci.org/v1shwa/audiobox-docker.svg?branch=master)](https://travis-ci.org/v1shwa/audiobox-docker) [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/v1shwa/audiobox/)
 ---
 
 A jupyter notebook based Docker image for speech/audio synthesis with all essential tools included.
