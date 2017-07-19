@@ -37,6 +37,9 @@ A jupyter notebook based Docker image for speech/audio synthesis with all essent
  - mir_eval
  - auditok
  - pyAcoustics
+ - theano
+ - pysptk
+ - sidekit
 
 ### Feedback/Contributing
 Feature requests, PRs for new tools & other suggestions are always welcome.

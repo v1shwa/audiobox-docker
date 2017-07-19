@@ -37,7 +37,8 @@ RUN pip install -U pip setuptools && \
     scikit-learn \
     pandas \
     matplotlib \
-    jupyter
+    jupyter \
+    theano
 
 # Some of packages break without their dependencies
 # hence, seperating them out to ensure their dependencies
@@ -47,7 +48,9 @@ RUN pip install pydub \
     nussl \
     librosa \
     peakutils \
-    mir_eval
+    mir_eval \
+    pysptk \
+    sidekit
 
 # Install non-pip packages
 ## Auditok
